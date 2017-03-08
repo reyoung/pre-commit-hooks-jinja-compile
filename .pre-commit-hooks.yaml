@@ -1,0 +1,6 @@
+-    id: convert-jinja2-into-html
+     name: convert jinja2 into html
+     description: "Convert jinja2 template into html file"
+     entry: convert-jinja2-into-html
+     language: python
+     files: .*\.html\.(tmpl|json)$
