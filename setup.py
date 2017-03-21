@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='dummy_package',
     version='0.0.0',
-    install_requires=['Jinja2==2.9.5'],
+    install_requires=['Jinja2==2.9.5', 'docopt'],
     packages=['hooks'],
     entry_points={
         'console_scripts':
